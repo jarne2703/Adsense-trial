@@ -1,0 +1,51 @@
+$gray-tint: rgb(142, 138, 138);
+$orange-tint: #F2B705;
+$dark-gray-tint: rgb(83, 83, 83);
+$broken-white: rgb(215, 215, 212);
+$background-color: rgb(238, 235, 227);
+
+
+header {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 2em;
+    padding-bottom: 2em;
+    padding-top: 0.8em;
+
+    img {
+        margin-top: 0.8em;
+        width: 45%;
+    }
+}
+
+@media (max-width: 1451px) {
+    header {
+        display: block;
+
+    }
+
+}
+
+@media (max-width: 661px) {
+    header {
+
+        &:nth-child(1) {
+            max-width: 65%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+        img {
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+
+}

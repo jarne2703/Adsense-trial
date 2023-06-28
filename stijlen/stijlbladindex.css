@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    flex-basis: 33%;
+
+}
+
+nav {
+    background-color: rgba(222, 166, 0, 254);
+    padding: 20px, 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-radius: 100px;
+
+}
+
+nav li {
+    padding: 10px 10px;
+    border-radius: 25px;
+
+
+}
+
+nav li:hover {
+    background-color: rgb(142, 138, 138);
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    display: block;
+    color: black;
+
+
+}

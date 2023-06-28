@@ -1,0 +1,31 @@
+$gray-tint: rgb(142, 138, 138);
+$orange-tint: #F2B705;
+$dark-gray-tint: rgb(83, 83, 83);
+$broken-white: rgb(215, 215, 212);
+$background-color: rgb(238, 235, 227);
+
+main section div {
+    background-color: $broken-white;
+    padding: 20px 20px;
+    border-radius: 15px;
+    max-width: 33%;
+    margin-bottom: 10px;
+
+    p {
+        display: flex;
+    }
+
+    img {
+
+        width: 80%;
+        max-width: 270px;
+        border-radius: 10px;
+        padding-bottom: 1em;
+
+    }
+
+    h5 {
+        padding-bottom: 0.8em;
+    }
+
+}

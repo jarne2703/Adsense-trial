@@ -1,0 +1,104 @@
+$gray-tint: rgb(142, 138, 138);
+$orange-tint: #F2B705;
+$dark-gray-tint: rgb(83, 83, 83);
+$broken-white: rgb(215, 215, 212);
+$background-color: rgb(238, 235, 227);
+
+
+footer {
+    background-color: $dark-gray-tint;
+    color: $broken-white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 3em;
+
+
+
+
+    a {
+        text-decoration: underline;
+        color: $broken-white
+    }
+
+    img {
+        padding-top: 0.3em;
+        padding-bottom: 1em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 5%;
+    }
+
+    h4 {
+        text-align: center;
+        margin-top: 0.4em;
+
+    }
+
+    section.flex {
+        max-width: 50em;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        gap: 2em;
+        padding-bottom: 2em;
+
+        // flex-grow: 1;
+        section {
+            flex-basis: 33%;
+
+        }
+
+    }
+
+    small {
+        padding-left: 10em;
+        margin-right: 2em;
+        display: flex;
+    }
+
+
+
+}
+
+@media (max-width: 818px) {
+    footer {
+
+        img {
+            width: 10%;
+        }
+
+
+        section.flex {
+            display: block;
+            margin-left: 2em;
+            margin-right: 2em;
+
+        }
+
+        h3 {
+            margin-top: 2em;
+
+        }
+
+        small {
+            padding-left: 1em;
+        }
+
+
+
+    }
+
+
+}
+
+@media (max-width: 501px) {
+    footer {
+        img {
+            width: 15%;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+$gray-tint: rgb(142, 138, 138);
+$orange-tint: #F2B705;
+$dark-gray-tint: rgb(83, 83, 83);
+$broken-white: rgb(215, 215, 212);
+$background-color: rgb(238, 235, 227);
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: $background-color;
+
+
+
+
+
+}
+
+
+@media (min-width: 1700px) {
+    body {
+        font-size: 130%;
+
+    }
+
+}

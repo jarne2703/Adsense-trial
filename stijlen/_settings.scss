@@ -1,0 +1,60 @@
+$gray-tint: rgb(142, 138, 138);
+$orange-tint: #F2B705;
+$dark-gray-tint: rgb(83, 83, 83);
+$broken-white: rgb(215, 215, 212);
+$background-color: rgb(238, 235, 227);
+
+
+* {
+    box-sizing: border-box;
+    padding: 0em;
+    margin: 0em;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+
+}
+
+
+main {
+    padding-left: 7.5%;
+    max-width: 85%;
+
+
+
+
+    h3 {
+        text-decoration: overline;
+        color: rgb(38, 37, 37);
+        margin-top: 1em;
+
+
+    }
+
+    .intro {
+        padding: 1em 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+
+        background-color: $broken-white;
+        border-radius: 25px;
+
+        a {
+            text-decoration: underline;
+            color: $dark-gray-tint;
+        }
+    }
+
+
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}

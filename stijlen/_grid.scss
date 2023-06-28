@@ -1,0 +1,86 @@
+$gray-tint: rgb(142, 138, 138);
+$orange-tint: #F2B705;
+$dark-gray-tint: rgb(83, 83, 83);
+$broken-white: rgb(215, 215, 212);
+$background-color: rgb(238, 235, 227);
+
+//parent
+section.grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 30% 30% 30%;
+
+    a.meer {
+        margin-bottom: 1em;
+        text-decoration: none;
+        color: $broken-white;
+        font-size: 1.2em;
+        background-color: $dark-gray-tint;
+        max-width: fit-content;
+        border-radius: 6px;
+        padding: 0.3em;
+
+        &:hover {
+            transition: 330ms;
+            background-color: $gray-tint;
+
+        }
+
+    }
+
+
+
+
+
+
+    //child
+    & div {
+        justify-self: center;
+        max-width: 100%;
+
+
+        &:hover {
+            transition: 330ms;
+            box-shadow: 3px 3px $dark-gray-tint;
+
+        }
+
+    }
+}
+
+@media (max-width: 1001px) {
+    section.grid {
+        grid-template-columns: 45% 45%;
+
+        a.meer {
+            margin-top: auto;
+        }
+    }
+}
+
+@media (max-width: 661px) {
+    section.grid {
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 1700px) {
+    section.grid {
+        grid-template-columns: 20% 20% 20% 20%;
+
+        a.meer {
+            margin-top: auto;
+        }
+    }
+
+}
+
+
+@media (min-width: 2000px) {
+    section.grid {
+        grid-template-columns: 15% 15% 15% 15% 15%;
+    }
+
+}
